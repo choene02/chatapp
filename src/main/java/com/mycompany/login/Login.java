@@ -72,7 +72,7 @@ public class Login {
 
                     System.out.println("Enter password:");
                     password = scanner.nextLine();
-
+             // code validation(conditions for the password)
                     if (password.length() >= 8
                             && password.matches(".*[A-Z].*")
                             && password.matches(".*[0-9].*")
@@ -80,7 +80,7 @@ public class Login {
 
                         System.out.println("Password successfully captured.");
                         break;
-///////////////////////////////////////////
+
                     } else {
 
                         System.out.println("Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number, and a special characters."
