@@ -37,7 +37,7 @@ public class Login {
             int choice = scanner.nextInt();
             scanner.nextLine();
 
-           
+           //prompt user to enter user credentials
 
             if (choice == 1) {
 
@@ -65,7 +65,7 @@ public class Login {
                     }
                 }
 
-              
+              //password
                 String password;
 
                 while (true) {
@@ -89,7 +89,9 @@ public class Login {
                     }
                 }
 
+               // cell phone number
                
+                
                 String cellphone;
 
                 while (true) {
