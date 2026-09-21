@@ -16,7 +16,7 @@ public class loginuser {
     public static void login(Scanner scanner) {
 
         System.out.println("== LOGIN ==");
-
+//prompt user to enter credential to run authentication
         while (true) {
 
             System.out.println("Enter username:");
@@ -36,7 +36,7 @@ public class loginuser {
                 ResultSet result = statement.executeQuery();
 
                 if (result.next()) {
-
+//Display Welcome with user name.
                     System.out.println("Welcome  "+ username );
                     break;
 
