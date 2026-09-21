@@ -21,12 +21,12 @@ public class Login {
         while (running) {
 
             System.out.println();
-            System.out.println("1. Register");
-            System.out.println("2. Login");
-            System.out.println("3. Exit");
+            System.out.println("1. Register.");
+            System.out.println("2. Login.");
+            System.out.println("3. Exit.");
             System.out.println("Enter your choice:");
 
-            // Check that the user enters a number
+          
             if (!scanner.hasNextInt()) {
 
                 System.out.println("Invalid choice. Please enter 1, 2 or 3.");
