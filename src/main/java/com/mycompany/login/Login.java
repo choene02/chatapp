@@ -19,7 +19,7 @@ public class Login {
         System.out.println("WELCOME TO CHAT APP");
 
         while (running) {
-
+//check number if invalid prompt user to enter either 1, 2 or 3
             System.out.println();
             System.out.println("1. Register.");
             System.out.println("2. Login.");
@@ -80,7 +80,7 @@ public class Login {
 
                         System.out.println("Password successfully captured.");
                         break;
-
+///////////////////////////////////////////
                     } else {
 
                         System.out.println("Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number, and a special characters."
