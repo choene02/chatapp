@@ -16,7 +16,7 @@ public class DatabaseConnection {
 
     // Create the users table
     public static void createTables() {
-
+//
         String sql = """
             CREATE TABLE IF NOT EXISTS users (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -30,7 +30,7 @@ public class DatabaseConnection {
              Statement statement = connection.createStatement()) {
 
             statement.execute(sql);
-
+//display message.
             System.out.println("Users table ready.");
 
         } catch (SQLException e) {
